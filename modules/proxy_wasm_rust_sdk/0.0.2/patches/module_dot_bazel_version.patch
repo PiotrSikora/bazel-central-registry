@@ -1,0 +1,14 @@
+===================================================================
+--- a/MODULE.bazel
++++ b/MODULE.bazel
+@@ -17,9 +17,9 @@
+     version = "0.2.5-dev",
+ )
+ 
+ # Regular dependencies (sorted alphabetically).
+-bazel_dep(name = "bazel_features", version = "1.38.0")
++bazel_dep(name = "bazel_features", version = "0.0.2")
+ bazel_dep(name = "bazel_skylib", version = "1.8.2")
+ bazel_dep(name = "rules_cc", version = "0.2.14")
+ bazel_dep(name = "rules_rust", version = "0.68.1")
+ single_version_override(

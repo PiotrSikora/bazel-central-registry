@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-7VyqjH4GUIcVw9n/SCSkT/MF6aFD4w6J8DxlokbVnKU=",
+    "strip_prefix": "proxy-wasm-rust-sdk-0.0.2",
+    "url": "https://github.com/PiotrSikora/proxy-wasm-rust-sdk/archive/refs/tags/v0.0.2.tar.gz",
+    "patches": {
+        "module_dot_bazel_version.patch": "sha256-VmBVzVszx4vnf/fbfSnpEKOW+xaW0BdEuNu9sKJwcWs="
+    },
+    "patch_strip": 1
+}
