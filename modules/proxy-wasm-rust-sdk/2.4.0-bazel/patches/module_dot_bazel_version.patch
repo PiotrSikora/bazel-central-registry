@@ -1,0 +1,14 @@
+===================================================================
+--- a/MODULE.bazel
++++ b/MODULE.bazel
+@@ -13,9 +13,9 @@
+ # limitations under the License.
+ 
+ module(
+     name = "proxy-wasm-rust-sdk",
+-    version = "0.2.4",
++    version = "2.4.0-bazel",
+     repo_name = "proxy_wasm_rust_sdk",
+ )
+ 
+ # Regular dependencies (sorted alphabetically).
